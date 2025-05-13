@@ -272,16 +272,57 @@ input[type="submit"] {
 }
 .page-header .md-scroll{
   position: absolute;
-  left: 50%;
+  left: 47%;
   bottom: 5%;
-  transform: translateX(-50%);
-  width: 4%;
+  width: 5%;
   cursor: pointer;
 }
 .page-header .md-scroll img{
-  width: 80%;
+  width: 70%;
   display: table;
   margin: 0 auto;
+  animation: md-scroll 3s infinite;
+}
+@keyframes md-scroll{
+  0%{
+    transform: scale(1.0);
+  }
+  5%{
+    transform: scale(1.1);
+  }
+  10%{
+    transform: scale(1.0);
+  }
+  15%{
+    transform: scale(1.1);
+  }
+  20%{
+    transform: scale(1.1);
+  }
+  25%{
+    transform: scale(1.0);
+  }
+  30%{
+    transform: scale(1.1);
+  }
+  35%{
+    transform: scale(1.0);
+  }
+  40%{
+    transform: scale(1.1);
+  }
+  45%{
+    transform: scale(1.0);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  55%{
+    transform: scale(1.0);
+  }
+  100%{
+    transform: scale(1.0);
+  }
 }
 .page-header .md-scroll span{
   font-size: calc(2px + 0.5vw);
@@ -1304,21 +1345,21 @@ input[type="submit"] {
     padding-top: 50px;
     padding-bottom: 20px; }
     .section-8 .bot-sc-8 .left-content {
-      width: 37%;
-      float: left; }
+      margin-bottom: 20px;
+      }
       .section-8 .bot-sc-8 .left-content p {
         text-align: center;
         padding: 5px 10px;
         border-radius: 20px;
         background: #f31d00;
         color: #FFF;
-        width: 84%;
+        display: table;
         margin: 0 auto;
         font-size: -webkit-calc(3px + 0.8vw);
         font-size: calc(3px + 0.8vw); }
     .section-8 .bot-sc-8 .right-content {
-      width: 62%;
-      float: left; }
+      padding: 0px 30px;
+      }
 
 @media screen and (max-width: 767px) {
   .section-7 h6{
@@ -1361,17 +1402,13 @@ input[type="submit"] {
       padding-left: 30px;
       padding-right: 30px; }
       .section-8 .bot-sc-8 .left-content {
-        float: none;
-        width: 100%;
-        margin-bottom: 10px; }
+        }
         .section-8 .bot-sc-8 .left-content p {
-          margin: 0;
-          width: 75%;
+          
           font-size: -webkit-calc(4px + 1.7vw);
           font-size: calc(4px + 1.7vw); }
       .section-8 .bot-sc-8 .right-content {
-        float: none;
-        width: 100%; } }
+        } }
 @media screen and (max-width: 370px) {
   .section-8 .bot-sc-8 .left-content p {
     width: 85%; } }
