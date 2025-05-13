@@ -1118,7 +1118,7 @@ input[type="submit"] {
     margin-bottom: 10px;
   }
   .section-7 .wrapper-smd-button .smd-button{
-    margin: 0 auto 30px auto;
+    margin: 20px auto 30px auto;
   }
   .section-7 .slide-lophoc img{
     width: 100%;
@@ -1341,7 +1341,8 @@ input[type="submit"] {
           font-size: calc(8px + 1.7vw);
           line-height: 1.2em; }
         .section-8 .top-sc-8 h3 span {
-          line-height: 1.6em; }
+          line-height: 1.6em;
+          font-size: calc(7px + 1vw); }
       .section-8 .top-sc-8 .sponsor .text-2 {
         margin-left: 0px; }
       .section-8 .top-sc-8 .sponsor .img-1 {
