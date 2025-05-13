@@ -1067,6 +1067,9 @@ input[type="submit"] {
 .section-7 {
   text-align: left;
   padding-top: 50px; }
+  .section-7 p{
+    margin-bottom: 10px;
+  }
   .section-7 .wrapper-smd-button .smd-button{
     margin: 0 auto 30px auto;
   }
@@ -1076,6 +1079,8 @@ input[type="submit"] {
         text-transform: uppercase;
         font-weight: 700;
         font-family: 'iCielCadena';
+        margin-bottom: 15px;
+        padding-top: 10px;
   }
   .section-7 h3 {
     color: #67ad60;
@@ -1354,6 +1359,26 @@ input[type="submit"] {
   }
 }
 
-
-
-
+@media (min-width: 1900px){
+  .section-progess .info{
+    max-width: 1500px;
+  }
+  .section-progess .smd-tab-grid{
+    margin-bottom: 70px;
+  }
+  body h3{
+    font-size: 3rem;
+  }
+  .section-8 .top-sc-8 h3{
+    top: -55px;
+  }
+  .section-9 .md-form .error{
+    font-size: 20px;
+  }
+  .ui.form input[type='text']{
+    padding: 30px 15px;
+  }
+  .section-9 .md-form .ui.form label{
+    margin-bottom: 20px;
+  }
+}
