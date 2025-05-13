@@ -121,6 +121,11 @@ $(".smd-button-6").click(function(){
 	  scrollTop: $("#section-2").offset().top
 	}, 'slow');
 });
+$(".md-scroll").click(function(){
+	$('html,body').animate({
+	  scrollTop: $("#section-1").offset().top
+	}, 'slow');
+});
 $('.ui.dropdown')
   .dropdown()
 ;
