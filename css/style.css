@@ -520,6 +520,9 @@ input[type="submit"] {
   padding-right: 5.8%; }
   .about-us .fl-left .info {
     margin-bottom: 2rem; }
+    .about-us .fl-left .info p{
+      text-align: justify;
+    }
 .about-us .fl-right {
   width: 42%; }
   .about-us .fl-right .s-item {
@@ -719,7 +722,25 @@ input[type="submit"] {
   display: inline-block;
   float: left; }
   .section-progess .smd-tab-grid:last-child {
-    margin-right: 0%; }
+    margin-right: 0%;
+    display:inline-block;
+    margin:0 auto 30px auto;
+    width: 100%;
+    text-align: center;
+    float:none; }
+    .section-progess .smd-tab-grid:last-child .smd-tab-content{
+      text-align: center;
+      width: 45%;
+      display: table;
+      margin: 0 auto;
+    }
+    @media screen and (max-width: 767px){
+      .section-progess .smd-tab-grid:last-child .smd-tab-content{
+        text-align: justify;
+        width: 100%;
+        display: none;
+      }
+    }
 .section-progess .smd-tab-menu {
   text-align: center; }
   .section-progess .smd-tab-menu .step-wrapper {
@@ -862,7 +883,7 @@ input[type="submit"] {
             transition-duration: 5s;
     padding: 2.5% 3% 3%; }
     .section-progess .smd-tab-content.active {
-      display: block;
+      display: block !important;
       -webkit-transition-duration: 0.5s;
            -o-transition-duration: 0.5s;
               transition-duration: 0.5s; } }
@@ -1053,6 +1074,7 @@ input[type="submit"] {
   .section-9 .organizational .img-1 {
     margin-bottom: 50px; } }
 @media screen and (max-width: 767px) {
+
   .section-9 {
     background: url(../images/bg-sc-9-mb.jpg) no-repeat;
     -webkit-background-size: 100% 100%;
@@ -1098,6 +1120,11 @@ input[type="submit"] {
   .section-7 .wrapper-smd-button .smd-button{
     margin: 0 auto 30px auto;
   }
+  .section-7 .slide-lophoc img{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
   .section-7 h6{
         color: #67ad60;
         font-size: calc(6px + 1vw);
@@ -1250,7 +1277,8 @@ input[type="submit"] {
       .section-8 .top-sc-8 h3 span {
         color: #67ad60;
         display: block;
-        padding: 0px 20px; }
+        padding: 0px 20px;
+        font-size:calc(6px + 1vw); }
     .section-8 .top-sc-8 .text-1 {
       margin-left: 50px; }
     .section-8 .top-sc-8 .sponsor {
@@ -1313,7 +1341,7 @@ input[type="submit"] {
           font-size: calc(8px + 1.7vw);
           line-height: 1.2em; }
         .section-8 .top-sc-8 h3 span {
-          line-height: 1.4em; }
+          line-height: 1.6em; }
       .section-8 .top-sc-8 .sponsor .text-2 {
         margin-left: 0px; }
       .section-8 .top-sc-8 .sponsor .img-1 {
