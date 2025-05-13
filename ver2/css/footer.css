@@ -1,0 +1,60 @@
+/* footer
+ -----------------------------------------------------*/
+.page-footer {
+  background: #00397f; }
+  .page-footer p {
+    color: #FFF; }
+  .page-footer span {
+    color: #FFF; }
+  .page-footer .title {
+    font-size: -webkit-calc(6px + 0.8vw);
+    font-size: calc(6px + 0.8vw);
+    font-weight: bold; }
+  .page-footer .top-footer {
+    background: #064695;
+    padding: 30px 0px; }
+    .page-footer .top-footer .title {
+      color: #fab126;
+      margin-bottom: 20px; }
+    .page-footer .top-footer .content p {
+      display: inline-block; }
+    .page-footer .top-footer .content span {
+      display: block; }
+    .page-footer .top-footer .content .text-1 {
+      float: left; }
+      .page-footer .top-footer .content .text-1 span {
+        font-weight: bold; }
+    .page-footer .top-footer .content .text-3 {
+      font-weight: bold; }
+    .page-footer .top-footer .content .img-1 {
+      float: left;
+      margin-right: 10px;
+      width: 13.5%; }
+    .page-footer .top-footer .content a {
+      display: inline-block;
+      width: 48%; }
+      .page-footer .top-footer .content a img {
+        width: 100%; }
+  .page-footer .bot-footer {
+    padding: 30px 0px 0px; }
+    .page-footer .bot-footer .yt-address .title {
+      color: #fab126;
+      margin-bottom: 10px; }
+    .page-footer .bot-footer .yt-address p {
+      margin-bottom: 10px; }
+    .page-footer .bot-footer .yt-address .md-col {
+      margin-bottom: 30px; }
+  @media screen and (max-width: 767px) {
+    .page-footer .top-footer .col-sm-6 {
+      margin-bottom: 30px; }
+    .page-footer .title {
+      font-size: -webkit-calc(10px + 1.7vw);
+      font-size: calc(10px + 1.7vw); } }
+
+@media screen and (max-width: 575px) {
+  .page-footer .top-footer .content .img-1 {
+    width: 7%; }
+  .page-footer .top-footer .content a {
+    width: 25%; }
+    .page-footer .top-footer .content a:first-child {
+      margin-right: 10px; } }

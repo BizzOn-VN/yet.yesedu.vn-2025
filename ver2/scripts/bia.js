@@ -26,23 +26,23 @@ $('.ui.checkbox')
     .checkbox()
 ;
 
-// $('.slide-mb').owlCarousel({
-//       loop:true,
-//       margin:20,
-//       nav:false,
-//       stagePadding: 40,
-//       responsive:{
-//           0:{
-//               items:1
-//           },
-//           600:{
-//               items:1
-//           },
-//           1000:{
-//               items:1
-//           }
-//       }
-// });
+$('.slide-mb').owlCarousel({
+      loop:true,
+      margin:20,
+      nav:false,
+      stagePadding: 40,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:1
+          },
+          1000:{
+              items:1
+          }
+      }
+});
 
 function myFunction() {
   var dots = document.getElementById("dots");
