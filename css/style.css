@@ -1468,6 +1468,14 @@ input[type="submit"] {
   }
   .ui.form input[type='text']{
     padding: 30px 15px;
+    font-size: calc(5px + 0.8vw);
+  }
+  .ui.form input[type='tel']{
+    padding: 30px 15px;
+    font-size: calc(5px + 0.8vw);
+  }
+  .ui.form input::placeholder{
+    font-size: calc(5px + 0.8vw);
   }
   .section-9 .md-form .ui.form label{
     margin-bottom: 20px;
