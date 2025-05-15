@@ -1109,7 +1109,11 @@ input[type="submit"] {
         margin-bottom: 5px;
         color: #FFF; }
       .section-9 .organizational .img-2 img {
-        width: 100%; }
+        width: 47%;
+        margin-right: 4%; }
+        .section-9 .organizational .img-2 img:last-child{
+          margin-right: 0px;
+        }
 
 @media screen and (max-width: 1110px) {
   .section-9 .organizational .img-1 {
@@ -1135,9 +1139,9 @@ input[type="submit"] {
         display: none; }
       .section-9 .organizational .img-2 {
         display: table;
-        margin: 0 auto; }
-        .section-9 .organizational .img-2 img {
-          min-width: 200px; }
+        margin: 0 auto;
+        width: 50%; }
+     
 
   .section-9 .md-form .error {
     font-size: -webkit-calc(11px + 0.3vw);
@@ -1189,8 +1193,7 @@ input[type="submit"] {
       padding: 15px 0px;
       border-top: 0px;
       font-size: -webkit-calc(7px + 0.8vw);
-      font-size: calc(7px + 0.8vw);
-      font-weight: bold; }
+      font-size: calc(7px + 0.8vw); }
       .section-7 .bordered tr th:first-child {
         border-left: 0px; }
       .section-7 .bordered tr th:last-child {
@@ -1205,16 +1208,12 @@ input[type="submit"] {
         display: block;
         font-weight: 500; }
     .section-7 .bordered tr td:first-child {
-      text-align: left;
       width: 33%;
       border: solid #ddd 1px;
-      border-left: 0px;
-      font-weight: bold; }
+      border-left: 0px; }
     .section-7 .bordered tr td:nth-child(2) {
-      width: 22.5%;
       border: solid #ddd 1px; }
     .section-7 .bordered tr td:nth-child(3) {
-      width: 21.3%;
       border: solid #ddd 1px; }
     .section-7 .bordered tr td:nth-child(4) {
       border: solid #ddd 1px; }
@@ -1334,7 +1333,11 @@ input[type="submit"] {
         width: 6.8%;
         margin-right: 20px; }
       .section-8 .top-sc-8 .sponsor .img-2 {
-        width: 13.9%; }
+        width: 13.9%;
+        margin-right: 20px; }
+        .section-8 .top-sc-8 .sponsor .img-3{
+          width: 23%;
+        }
   .section-8 .bot-sc-8 {
     position: relative;
     z-index: -1;
@@ -1481,3 +1484,33 @@ input[type="submit"] {
     margin-bottom: 20px;
   }
 }
+
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    font-weight: normal;
+    text-align: center;
+    min-width: 100px;
+  }
+
+  tr:first-child th {
+    text-align: left;
+  }
+
+
+
+  .table-container {
+      overflow-x: auto;
+    }
