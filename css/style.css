@@ -1171,7 +1171,7 @@ input[type="submit"] {
     margin-bottom: 15px;
   }
 
-  .section-7 h2{
+  .section-7 h6{
         color: #67ad60;
         font-size: calc(6px + 1vw);
         text-transform: uppercase;
@@ -1366,7 +1366,7 @@ input[type="submit"] {
       }
 
 @media screen and (max-width: 767px) {
-  .section-7 h2{
+  .section-7 h6{
     font-size: calc(8px + 2vw);
   }
   #more {
